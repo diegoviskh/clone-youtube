@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+:root{
+    --background-color: rgb(18, 18, 18);
+    --navigation: rgb(30, 30, 30);
+    --search: rgb(45, 45, 45);
+}
+
+::-webkit-scrollbar{
+    width: .3rem;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--background-color);
+    margin-block: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 7rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(196, 0, 0);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/videos.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Clone Youtube</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="Logo Youtube">
+
+        <div class="search">
+            <input class="input-search" type="text" placeholder="Pesquisar">
+            <button class="button-search"><img src="img/search.png" alt=""></button>
+            <button class="audio-search"><img src="img/mic.png" alt=""></button>
+        </div>
+
+        <div class="upload-notification">
+            <img class="upload" src="img/upload.png" alt="">
+            <img class="notification" src="img/notification.png" alt="">
+        </div>
+
+        <div class="profile">
+            <img src="img/profile.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="navigation">
+            <div class="container-selected">
+                <p><span><img src="img/home.png" alt=""></span> Página inicial</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/shorts.png" alt=""></span> Shorts</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/inscritos.png" alt=""></span> Inscritos</p>
+            </div>
+
+            <hr class="line">
+
+            <div class="container">
+                <p><span><img src="img/biblioteca.png" alt=""></span> Biblioteca</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/historico.png" alt=""></span> Histórico</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/video.png" alt=""></span> Seus vídeos</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/time.png" alt=""></span> Assistir mais tarde</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/like.png" alt=""></span> Vídeos marcadados c...</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/more.png" alt=""></span> Mostrar mais</p>
+            </div>
+
+            <hr class="line">
+
+            <h3 class="inscritos">Inscrições</h3>
+
+            <div class="channel">
+                <img src="img/canal1.jpg" alt="">
+                <div class="newNotification">
+                    <p>Rocketseat</p>
+                    <span></span>
+                </div>
+            </div>
+            <div class="channel">
+                <img src="img/canal2.jpg" alt="">
+                <p>Código Fonte</p>
+            </div>
+            <div class="channel">
+                <img src="img/canal3.jpg" alt="">
+                <div class="newNotification">
+                    <p>Rocketseat</p>
+                    <span></span>
+                </div>
+            </div>
+            <div class="channel">
+                <img src="img/canal4.jpg" alt="">
+                <div class="newNotification">
+                    <p>Filipe Deschamps</p>
+                    <span></span>
+                </div>
+            </div>
+            <div class="channel">
+                <img src="img/canal5.jpg" alt="">
+                <p>Diolinux</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/more.png" alt=""></span> Mostrar mais 8</p>
+            </div>
+
+            <hr class="line">
+
+            <div class="container">
+                <p><span><img src="img/fogo.png" alt=""></span> Em alta</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/bag.png" alt=""></span> Shopping</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/song.png" alt=""></span> Música</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/movie.png" alt=""></span> Filmes</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/live.png" alt=""></span> Ao vivo</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/games.png" alt=""></span> Jogos</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/news.png" alt=""></span> Notícias</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/trophy.png" alt=""></span> Esportes</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/aprender.png" alt=""></span> Aprender</p>
+            </div>
+
+            <hr class="line">
+
+            <div class="container">
+                <p><span><img src="img/config.png" alt=""></span> Configurações</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/flag.png" alt=""></span> Histórico de denún...</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/question.png" alt=""></span> Ajuda</p>
+            </div>
+            <div class="container">
+                <p><span><img src="img/exclamation.png" alt=""></span> Enviar feedback</p>
+            </div>
+
+            <hr class="line">
+
+            <p class="credits">Desenvolvido por Diegoviskh</p>
+
+        </section>
+        <section class="videos">
+            <div class="cards">
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/wymYAPjC-AI" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="img/video1.jpg" alt="">
+                        <div class="description">
+                            <h3>DMC5 - Vergil Stylish combo</h3>
+                            <p>Dante Gameplays</p>
+                            <p>3,2 mil Visualizações | há 1 hora</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/EbFA4RQrc0w" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="img/canal1.jpg" alt="">
+                        <div class="description">
+                            <h3>Você não usa Tailwind por ESSE motivo?! (mitos sobre...</h3>
+                            <p>Rocketseat</p>
+                            <p>270 mil Visualizações | há 3 horas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/3pRszaur8Fo" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="https://yt3.ggpht.com/lZzR9jt7vE7b3Q4ocMHsOnz0A_JeJwxLr5qkgiwSEg7jRHz73gITzVf8aeOS4DlFAWXnrJdE=s48-c-k-c0x00ffffff-no-rj" alt="">
+                        <div class="description">
+                            <h3>Resident Evil 4 Remake Mercanaries Luis Village 335k</h3>
+                            <p>Blaze MBZ</p>
+                            <p>3,4 mi Visualizações | há 30 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/XSbMSSdGSdg" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="img/canal1.jpg" alt="">
+                        <div class="description">
+                            <h3>Formulários avançados no React (Hook Form + Zod)</h3>
+                            <p>Rocketseat</p>
+                            <p>10 mil Visualizações | há 1 dia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/AUGwPSRkg1c" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="https://yt3.googleusercontent.com/qw63aVVXOaV32OpTWd3wWM7e-lV3LMPwvh9OlaEU7B_TCLppepjKneid6yvkCUu5NdnAmy3Cow=s900-c-k-c0x00ffffff-no-rj" alt="">
+                        <div class="description">
+                            <h3>As 3 habilidades que mais vão criar milionários nos próxi...</h3>
+                            <p>Jovens de Negócio</p>
+                            <p>5,4 mi Visualizações | há 4 horas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/CfTx9k9vqd4" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="https://yt3.googleusercontent.com/S7qEMfyv50cWReGdPmubXRZsdH0NohaX2xm8IPGncGUUADVl1dPvIyFgsyValxbtKCSnPcLJGg=s900-c-k-c0x00ffffff-no-rj" alt="">
+                        <div class="description">
+                            <h3>Pathologic 2: Um Diamante no Mundo dos Jogos</h3>
+                            <p>Filipe Ramos</p>
+                            <p>4,8 mi Visualizações | há 2 anos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/PhrXLcUhPKI" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <div class="description">
+                            <h3>3 MELHORES FUNDOS IMOBILIÁRIOS PARA 2023 | Hora d...</h3>
+                            <p>Primo Rico</p>
+                            <p>605 mil Visualizações | há 2 meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/ErFSizbKs6M" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="https://yt3.ggpht.com/ytc/AL5GRJUmc4t7965qzMWEIxS1eXwGImDBPweuHDSl1AT2=s48-c-k-c0x00ffffff-no-rj" alt="">
+                        <div class="description">
+                            <h3>DMC5 Dante vs Vergil - [Vergil DLC]</h3>
+                            <p>donguri990</p>
+                            <p>957 mil Visualizações | há 2 anos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/u89XfBFd4Mw" title="YouTube video player" frameborder="0"></iframe>
+                    <div class="video">
+                        <img src="https://yt3.ggpht.com/ytc/AL5GRJXBIXZS36Gfmv410H984n_aRtXSEpA6ckg5PhNPXQ=s48-c-k-c0x00ffffff-no-rj" alt="">
+                        <div class="description">
+                            <h3>o dark souls das reviews de jogos</h3>
+                            <p>GEMAPLYS</p>
+                            <p>5,6 mi Visualizações | há 2 anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

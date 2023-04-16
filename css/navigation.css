@@ -1,0 +1,129 @@
+.navigation{
+    width: 16rem;
+    height: calc(100vh - 3.5rem);
+    background-color: var(--background-color);
+    overflow: auto;
+}
+
+.navigation .container-selected{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    margin-top: 15px;
+    background-color: var(--navigation);
+    color: beige;
+    font-size: 14px;
+    border-radius: .7rem;
+}
+
+.navigation .container{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: var(--background-color);
+    color: beige;
+    font-size: 14px;
+    border-radius: .7rem;
+
+    cursor: pointer;
+}
+
+.navigation .container:hover{
+    background-color: var(--navigation);
+}
+
+.navigation span img{
+    width: 1.2rem;
+    height: 1.2rem;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navigation p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .line{
+    margin: 8px 10px 0 10px;
+    
+    background-color: var(--navigation);
+}
+
+.navigation .line + .container{
+    margin-top: 8px;
+}
+
+.navigation .inscritos{
+    color: beige;
+    font-size: 16px;
+    font-weight: normal;
+
+    margin: 20px 0 10px 1.5rem;
+}
+
+.navigation .channel{
+    margin-left: 10px;
+    height: 2.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: var(--background-color);
+    color: beige;
+    font-size: 14px;
+    border-radius: .7rem;
+
+    cursor: pointer;
+}
+
+.navigation .channel:hover{
+    background-color: var(--navigation);
+}
+
+.navigation .channel img{
+    width: 1.2rem;
+    height: 1.2rem;
+
+    border-radius: 50%;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navigation .channel .newNotification{
+    width: 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newNotification span{
+    
+    width: .3rem;
+    height: .3rem;
+
+    background-color: red;
+
+    border-radius: 50%;
+}
+
+.navigation .credits{
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
