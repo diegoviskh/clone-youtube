@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'Times New Roman', Times, serif;
+
+    overflow: auto;
 }
 
 :root{
@@ -16,7 +18,7 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: var(--background-color);
+    background: var(--background);
     margin-block: .5rem;
 }
 

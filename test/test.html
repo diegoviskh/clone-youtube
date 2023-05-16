@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Modal</title>
+  
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #51267991;
+    }
+
+    .invisible{
+        display: none;
+
+        transition: 200ms;
+    }
+
+    .window{
+        width: 30rem;
+        height: 10rem;
+        
+        font-size: 50px;
+        background-color: #6b33a0;
+        color: #ffffff;
+
+        border: none;
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        transition: 200ms;
+    }
+
+    .window:hover{
+        background-color: #612e91;
+    }
+
+    .modal{
+        width: 30rem;
+        height: 30rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 35px;
+
+        background-color: #512679;
+        color: white;
+
+        border: none;
+        border-radius: 5px;
+    }
+
+  </style>
+  
+  <script>
+    function openModal(){
+        const element = document.querySelector('div');
+        const button = document.querySelector('button');
+
+        element.classList.remove('invisible');
+        button.classList.add('invisible');
+    }
+
+    function closeModal(){
+        const element = document.querySelector('div');
+        const body = document.querySelector('body');
+        const button = document.querySelector('button');
+
+        body.onkeydown = function(event){
+            if(event.key === "Escape"){
+                element.classList.add('invisible');
+                button.classList.remove('invisible');
+            }
+            console.log(event.key);
+        }
+    }
+
+  </script>
+</head>
+<body onload="closeModal()">
+  <button class="window" id="openModal" onclick="openModal()">Abrir janela</button>
+  
+  <div class="invisible">
+    <div class="modal">
+        Pressione ESC para fechar
+    </div>
+  </div>
+</body>
+</html>
