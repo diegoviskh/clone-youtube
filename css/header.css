@@ -56,9 +56,10 @@ header .search .button-search img{
 
 header .search .audio-search{
     width: 3rem;
-    height: 2.3rem;
+    height: 3rem;
     border-radius: 50%;
 
+    margin-top: .5rem;
     margin-left: 1rem;
 
     outline: none;
@@ -67,6 +68,7 @@ header .search .audio-search{
     background-color: var(--background-color);
 
     cursor: pointer;
+
 }
 
 header .search .audio-search img{
